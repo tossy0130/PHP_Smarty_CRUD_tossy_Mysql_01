@@ -1,0 +1,36 @@
+<?php
+/* Smarty version 4.1.0, created on 2023-08-18 16:12:11
+  from 'C:\xampp\htdocs\sample_smarty\templates\index.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.1.0',
+  'unifunc' => 'content_64df19cbdc4892_02632291',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '69b77f120d60dce0177e4ae41e6db6afd94a8d4b' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\sample_smarty\\templates\\index.tpl',
+      1 => 1692340912,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_64df19cbdc4892_02632291 (Smarty_Internal_Template $_smarty_tpl) {
+?>    <!DOCTYPE html>
+    <html lang="ja">
+        <head>
+             <title>Smarty動作確認</title>
+        </head>
+        <body>
+             Hello World!!<br>
+             私の名前は<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+です。
+        </body>
+    </html>
+<?php }
+}
